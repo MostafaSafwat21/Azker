@@ -1,0 +1,45 @@
+name: azker
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.1
+  shared_preferences: ^2.0.18
+  dio: ^5.0.1
+  conditional_builder_null_safety: ^0.0.6
+  http: ^1.1.0
+  intl: ^0.17.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  change_app_package_name: ^1.2.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppICon"
+  image_path: "assets/pngIslamic.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/azkar.json
+    - assets/
